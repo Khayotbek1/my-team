@@ -606,6 +606,10 @@ body {
   margin-bottom: 51px;
   color: #fff;
   transition: .2s;
+  margin-right: auto;
+}
+.social-link{
+  text-align: right;
 }
 
 .footer-social__link svg path{

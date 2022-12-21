@@ -390,7 +390,7 @@ body {
 }
 
 
-/* -----------------------------MAIN------------------------------ */
+/* -----------------------------MAIN------------------------------ */ 
 
 .about-main {
   background-color: var(--secondary-deep-green);
@@ -506,8 +506,7 @@ body {
   pointer-events: none;
   transition: .5s ease;
 }
-.directors-item__info {
-}
+
 .subtitle{
   margin-bottom: 8px;
 }
@@ -624,3 +623,85 @@ body {
   opacity: 0.6;
 }
 
+/*-------------------------- SITE-CONTACT --------------------------*/
+
+.main {
+  background-color: var(--primary-midnight-color);
+  background: url('../images/svg/about-main-icon1.svg') no-repeat,
+   url(../images/svg/contact-main.svg) no-repeat;
+  background-position: top left, right bottom;
+  padding-bottom: 120px;
+}
+.contact-us {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 540px;
+}
+.contact-title {
+  color: var(--primary-white);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 10rem;
+  margin-bottom: 16px;
+}
+.contact-subtitle {
+  color: var(--primary-light-color);
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 32px;
+}
+.contact-desc {
+  display: flex;
+  align-items: center;
+}
+.contact-desc__text {
+  color: var(--primary-white);
+  font-weight: 700;
+  font-size: var(--main-font-size-1);
+  line-height: 2.8rem;
+  margin-left: 23px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+ 
+}
+input{
+  width: 100%;
+  min-width: 540px;
+  border: none;
+  border-bottom: 1px solid #ffff;
+  margin-bottom: 24px;
+  padding: 0 14px 17px;
+  background-color: initial;
+  color: var(--primary-white);
+}
+input:hover{
+  border-bottom: 1px solid var(--primary-light-color);
+  color: var(--primary-light-color);
+  opacity: 1;
+}
+input:last-child{
+  padding-bottom: 60px;
+}
+.form-link {
+  padding: 9px 32px 11px;
+  background-color: var(--primary-white);
+  color: #000;
+  border: 2px solid #fff;
+  border-radius: 24px;
+  display: inline-block;
+  transition: .2s;
+}
+.form-link:hover{
+  background-color: var(--secondary-dark-green);
+  color: var(--primary-white);
+}
